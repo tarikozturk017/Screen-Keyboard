@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <title>Screen Keyboard</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center" style="font-family:'Lucida Console'">Screen Keyboard</h1>
+            <div class="text-center">
+                <h2 id="text">_</h2><br>
+                <div id="alphabetics"></div><br>
+                <div id="numerics"></div><br>
+                <div id="nonalphanums"></div><br>
+                <button class="btn btn-info" onClick="deleteAll()">Delete All</button>
+                <button class="btn btn-info" onClick="deleteLast()">Delete</button><br>
+                <button id="uplow" class="btn btn-dark m-2" onClick="convertUpLow()">Show Uppercase Letters</button>
+            </div>
+        </div>
+
+        <script src="./js/keyboard.js"></script>
+    </body>
+</html>
